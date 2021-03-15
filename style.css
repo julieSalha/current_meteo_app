@@ -1,27 +1,24 @@
 html, body {
-    background: #2980B9;
-    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-    min-width: 400px;
-  }
+  background: #2980B9;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  min-width: 400px;
+}
 
-  .container {
-    margin: auto;
+.container {
+  margin: auto;
+  width: 50%;
+}
 
-    max-width: 70%;
+#city {
+  text-transform: capitalize;
+}
 
-    text-align: center;
-  }
-  
-  #city {
-    text-transform: capitalize;
-  }
-  
-  #temperature {
-    font-size: 4em;
-  }
-  
-  #change {
-    background: rgba(178, 223, 251, .3);
-    cursor: pointer;
-  }
+#temperature {
+  font-size: 4em;
+}
+
+#change {
+  background: rgba(178, 223, 251, .3);
+  cursor: pointer;
+}
